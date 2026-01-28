@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://raufjuldasev-hash.github.io/sitemap.xml
