@@ -5,23 +5,17 @@ body {
     font-family: Arial, sans-serif;
     background: #f4f9ff;
     color: #222;
-}
-.doctor-card {
-    max-width: 1000px;
-    margin: 40px auto;
-    background: white;
-    border-radius: 16px;
-    padding: 30px;
-    display: flex;
-    gap: 30px;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.08);
-}
-
-.doctor-photo {
-    width: 260px;
-    border-radius: 16px;
-    object-fit: cover;
-}
+<div class="doctor-card">
+    <img src="doctor.jpg" class="doctor-photo" alt="ЛОР врач Рауф Юлдашев">
+    
+    <div>
+        <h1>ЛОР врач Рауф Юлдашев</h1>
+        <p>Врач-оториноларинголог высшей категории.<br>
+        Диагностика и лечение уха, горла и носа.</p>
+        <p>📞 +998 94 649 96 11</p>
+        <p>📍 EMU Clinic / AVISA Med Servis</p>
+    </div>
+</div
 header {
     background: linear-gradient(135deg, #0d6efd, #2a7fff);
     color: white;
