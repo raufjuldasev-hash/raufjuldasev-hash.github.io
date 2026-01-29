@@ -41,6 +41,26 @@ body {
     text-decoration: none;
     color: #1a73e8; /* Синий для номера телефона */
 }
+    .doctor-contact {
+    margin-top: 20px;
+}
+
+.telegram-button {
+    display: inline-block;
+    background-color: #0088cc; /* цвет Telegram */
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 12px 25px;
+    border-radius: 12px;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+    transition: 0.3s;
+}
+
+.telegram-button:hover {
+    background-color: #00a2e8;
+    box-shadow: 0 8px 18px rgba(0,0,0,0.15);
+}
 header {
     background: linear-gradient(135deg, #0d6efd, #2a7fff);
     color: white;
